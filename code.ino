@@ -11,7 +11,7 @@
 
 const char* ssid = "Test";
 const char* password = "password123";
-const char* serverName = "http://localhost:3000";
+const char* serverName = "http://192.168.1.100:3000"; // Replace with your laptop's IP
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 Servo outDoorServo;
